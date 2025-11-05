@@ -182,7 +182,7 @@ pero no adecuado para reconstrucción 3D o zonas con paralaje elevado.
 5. Implementar bundle adjustment en Python o COLMAP para análisis 3D futuro.
 
 
-## Discusión
+## Organizar
 
 - **Desempeño de detectores:** SIFT ofrece la mejor relación entre densidad y estabilidad; ORB destaca por eficiencia pero reduce correspondencias válidas.  
 - **Precisión geométrica:** el modelo homográfico reconstruye correctamente el plano de la escena, con errores esperables por paralaje y variación de punto de vista.  
@@ -202,7 +202,7 @@ pero no adecuado para reconstrucción 3D o zonas con paralaje elevado.
 
 ---
 
-## 📚 Referencias
+## Referencias
 
 - Lowe, D. G. (2004). *Distinctive Image Features from Scale-Invariant Keypoints*. International Journal of Computer Vision, 60(2), 91–110.  
 - Hartley, R., & Zisserman, A. (2003). *Multiple View Geometry in Computer Vision* (2nd ed.). Cambridge University Press.  
@@ -212,7 +212,7 @@ pero no adecuado para reconstrucción 3D o zonas con paralaje elevado.
 
 ---
 
-## 👥 Contribución Individual
+## Contribución Individual
 
 | Integrante | Rol | Actividad principal |
 |-------------|-----|---------------------|
