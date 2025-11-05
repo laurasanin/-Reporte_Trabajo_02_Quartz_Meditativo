@@ -4,11 +4,11 @@
 **Semestre:** 2025-02  
 **Facultad de Minas — Universidad Nacional de Colombia**  
 **Departamento de Ciencias de la Computación y de la Decisión**  
-**Autor:** [Tu nombre aquí]  
+**Autores:** 
 
 ---
 
-## 🟩 Introducción
+## Introducción
 
 El registro de imágenes es una tarea fundamental en visión por computador, cuyo propósito es alinear diferentes vistas de una misma escena para obtener una representación coherente y continua. Este proceso es esencial en aplicaciones como la fotogrametría, la reconstrucción 3D, el mapeo y la medición de objetos en el mundo real.
 
@@ -18,7 +18,7 @@ El proyecto combina validación con imágenes sintéticas —para evaluar la rob
 
 ---
 
-## 🧠 Marco Teórico
+## Marco Teórico
 
 ### Registro de Imágenes
 El registro consiste en encontrar una transformación geométrica que alinee dos imágenes capturadas desde diferentes puntos de vista. En este caso, se asume que las vistas pertenecen a un mismo plano, por lo que la transformación se modela mediante una **homografía 3×3**.
@@ -40,7 +40,7 @@ Al identificar objetos de dimensiones conocidas dentro de la imagen fusionada, s
 
 ---
 
-## 🧭 Metodología
+## Metodología
 
 El desarrollo siguió un flujo modular documentado en tres notebooks principales:
 
@@ -79,7 +79,7 @@ flowchart LR
 
 ---
 
-## 🧪 Resultados
+## Resultados
 
 ### Imágenes de entrada
 ![Imágenes originales](01_original_images.jpeg)
@@ -107,7 +107,7 @@ flowchart LR
 
 ---
 
-## 🔍 Discusión
+## Discusión
 
 - **Desempeño de detectores:** SIFT ofrece la mejor relación entre densidad y estabilidad; ORB destaca por eficiencia pero reduce correspondencias válidas.  
 - **Precisión geométrica:** El modelo homográfico reconstruye correctamente el plano de la escena, con errores esperables por paralaje y variación de punto de vista.  
@@ -117,7 +117,7 @@ flowchart LR
 
 ---
 
-## ✅ Conclusiones
+## Conclusiones
 
 1. El pipeline de registro basado en **SIFT + RANSAC + homografía** permitió fusionar exitosamente las tres imágenes del comedor en un panorama coherente.  
 2. La **validación sintética** confirmó la precisión del modelo geométrico, con errores promedio aceptables.  
@@ -137,15 +137,12 @@ flowchart LR
 
 ---
 
-## 👥 Contribución Individual
+## Contribución Individual
 
 | Integrante | Rol | Actividad principal |
 |-------------|-----|---------------------|
-| [Nombre A] | Desarrollo | Implementación del pipeline y scripts de validación |
-| [Nombre B] | Análisis | Evaluación de detectores y redacción de resultados |
-| [Nombre C] | Visualización | Diseño de figuras y reporte de mediciones |
+|  | Desarrollo | Implementación del pipeline y scripts de validación |
+| | Análisis | Evaluación de detectores y redacción de resultados |
+|  | Visualización | Diseño de figuras y reporte de mediciones |
 
 ---
-
-**Repositorio del proyecto:** [https://github.com/TU_USUARIO/fusion-perspectivas](#)  
-**Publicación:** [https://TU_USUARIO.github.io/fusion-perspectivas](#)
