@@ -1,10 +1,10 @@
-# Fusión de Perspectivas: registro y medición métrica en una escena real
+# Informe técico - fusión de Perspectivas: registro y medición métrica en una escena real
 
 **Curso:** Visión por Computador (3009228)  
 **Semestre:** 2025-02  
 **Facultad de Minas — Universidad Nacional de Colombia**  
 **Departamento de Ciencias de la Computación y de la Decisión**  
-**Autor:** 
+**Autores:** Sebastián Palacio Betancur, Juan Manuel Sanchez Restrepo, Laura Sanín Colorado, Henrry Uribe Cabrera Ordonez.
 
 ---
 
