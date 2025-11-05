@@ -103,6 +103,15 @@ flowchart LR
 ### Calibración y medición
 ![Reporte de mediciones](09_measurement_report.png)
 
+### Tabla de mediciones reales del comedor
+
+| Elemento          |   Distancia (píxeles) |   Distancia (cm) | Incertidumbre (cm)   | Incertidumbre (%)   |
+|:------------------|----------------------:|-----------------:|:---------------------|:--------------------|
+| Ancho del cuadro  |                   100 |            10.73 | ±2.15                | ±20.08              |
+| Largo de la mesa  |                   300 |            32.19 | ±6.46                | ±20.08              |
+| Altura de ventana |                   500 |            53.65 | ±10.77               | ±20.08              |
+| Ancho de silla    |                   100 |            10.73 | ±2.15                | ±20.08              |
+| Altura de planta  |                   300 |            32.19 | ±6.46                | ±20.08              |
 ---
 
 
